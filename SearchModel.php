@@ -1,15 +1,50 @@
 <?php
 
-namespace denis909\yii2;
+namespace denis909\yii;
 
-abstract class ActiveRecord extends \yii\db\ActiveRecord
+use yii\db\Query;
+use yii\data\ActiveDataProvider;
+
+abstract class SearchModel extends \yii\base\Model
 {
+
+    const DATA_PROVIDER = ActiveDataProvider::class;
+
+    const EVENT_APPLY_TO_QUERY = 'applyToQuery';
+
+    const EVENT_CREATE_DATA_PROVIDER = 'createDataProvider';
 
     const EVENT_RULES = 'rules';
 
     const EVENT_BEHAVIORS = 'behaviors';
 
     const EVENT_ATTRIBUTE_LABELS = 'attributeLabels';
+
+    public function applyToQuery(Query $query)
+    {
+        $event = new QueryEvent;
+
+        $event->sender = $this;
+
+        $event->query = $query;
+
+        $this->trigger(static::EVENT_APPLY_TO_QUERY, $event);
+    }
+
+    public function createDataProvider(array $options = [])
+    {
+        $event = new OptionsEvent;
+
+        $event->sender = $this;
+
+        $event->options = $options;
+
+        $this->trigger(static::EVENT_CREATE_DATA_PROVIDER, $event);
+
+        $class = static::DATA_PROVIDER;
+
+        return new $class($options);
+    }
 
     public function rules()
     {

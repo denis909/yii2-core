@@ -2,7 +2,7 @@
 
 namespace denis909\yii;
 
-class ActiveRecordRulesEvent extends \yii\base\Event
+class RulesEvent extends \yii\base\Event
 {
 
     public $rules = [];

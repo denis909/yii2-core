@@ -1,9 +1,9 @@
 {
-    "name": "denis909/yii2-active-record",
+    "name": "denis909/yii2-core",
     "license": "MIT",
-	"autoload": {
-		"psr-4": {
+    "autoload": {
+        "psr-4": {
             "denis909\\yii2\\" : ""
-		}
-	}
+        }
+    }
 }
