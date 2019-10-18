@@ -4,7 +4,7 @@ namespace denis909\yii2;
 
 abstract class ActiveQuery extends \yii\db\ActiveQuery
 {
-
+    
     public function behaviors()
     {
         $event = new BehaviorsEvent;
