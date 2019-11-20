@@ -1,10 +1,10 @@
 <?php
 
-namespace denis909\yii2;
+namespace denis909\yii;
 
 class AttributeLabelsEvent extends \yii\base\Event
 {
 
-    public $labels = [];
-
+    public $attributeLabels = [];
+    
 }

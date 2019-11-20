@@ -1,1 +1,1 @@
-# yii2-active-record
+# Yii 2 Core

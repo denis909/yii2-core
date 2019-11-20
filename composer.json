@@ -1,9 +1,19 @@
 {
     "name": "denis909/yii2-core",
+    "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "denis909",
+            "email": "mail@denis909.spb.ru"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "denis909\\yii2\\" : ""
         }
-    }
+    },
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    }    
 }
