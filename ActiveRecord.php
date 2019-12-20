@@ -1,6 +1,6 @@
 <?php
 
-namespace denis909\yii2;
+namespace denis909\yii;
 
 use Yii;
 

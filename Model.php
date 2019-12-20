@@ -1,6 +1,6 @@
 <?php
 
-namespace denis909\yii2;
+namespace denis909\yii;
 
 class Model extends \yii\base\Model implements ModelInterface
 {
