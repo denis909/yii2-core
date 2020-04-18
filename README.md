@@ -1,1 +1,1 @@
-# Yii 2 Core
+# deprecated
