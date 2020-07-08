@@ -10,15 +10,17 @@
         "denis909/yii2-controller": "*",
         "denis909/yii2-model-exception": "*",
         "denis909/yii2-nullable-behavior": "*",
+        "denis909/yii2-attribute-changed-behavior": "*",
         "denis909/yii2-pjax": "*",
         "denis909/yii2-pjax-form": "*",
         "denis909/yii2-json-params-behavior": "*",
         "denis909/yii2-where-date-behavior": "*",
-        "denis909/yii2-join-with-relation-behavior": "*",
+        "denis909/yii2-join-with-relation-trait": "*",
         "denis909/yii2-formatter-behavior": "*",
         "denis909/yii2-datatime-formatter-behavior": "*",
         "denis909/yii2-delete-related-behavior": "*",
         "denis909/yii2-attribute-typecast-behavior": "*",
-        "denis909/yii2-typecast-behavior": "*"
+        "denis909/yii2-typecast-behavior": "*",
+        "denis909/yii2-get-trait": "*"
     }
 }
