@@ -2,7 +2,23 @@
     "name": "denis909/yii2-core",
     "license": "MIT",
     "require": {
+        "denis909/yii2-migration": "*",
         "denis909/yii2-sort-behavior": "*",
-        "denis909/yii2-decimal-behavior": "*"
+        "denis909/yii2-decimal-behavior": "*",
+        "denis909/yii2-model": "*",
+        "denis909/yii2-active-record": "*",
+        "denis909/yii2-controller": "*",
+        "denis909/yii2-model-exception": "*",
+        "denis909/yii2-nullable-behavior": "*",
+        "denis909/yii2-pjax": "*",
+        "denis909/yii2-pjax-form": "*",
+        "denis909/yii2-json-params-behavior": "*",
+        "denis909/yii2-where-date-behavior": "*",
+        "denis909/yii2-join-with-relation-behavior": "*",
+        "denis909/yii2-formatter-behavior": "*",
+        "denis909/yii2-datatime-formatter-behavior": "*",
+        "denis909/yii2-delete-related-behavior": "*",
+        "denis909/yii2-attribute-typecast-behavior": "*",
+        "denis909/yii2-typecast-behavior": "*"
     }
 }
