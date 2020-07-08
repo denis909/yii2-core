@@ -1,0 +1,8 @@
+{
+    "name": "denis909/yii2-core",
+    "license": "MIT",
+    "require": {
+        "denis909/yii2-sort-behavior": "*",
+        "denis909/yii2-decimal-behavior": "*"
+    }
+}
