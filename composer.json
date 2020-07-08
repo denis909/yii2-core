@@ -17,7 +17,7 @@
         "denis909/yii2-where-date-behavior": "*",
         "denis909/yii2-join-with-relation-trait": "*",
         "denis909/yii2-formatter-behavior": "*",
-        "denis909/yii2-datatime-formatter-behavior": "*",
+        "denis909/yii2-datetime-formatter-behavior": "*",
         "denis909/yii2-delete-related-behavior": "*",
         "denis909/yii2-attribute-typecast-behavior": "*",
         "denis909/yii2-typecast-behavior": "*",
