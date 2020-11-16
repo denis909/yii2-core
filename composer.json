@@ -15,7 +15,7 @@
         "denis909/yii2-pjax-form": "*",
         "denis909/yii2-json-params-behavior": "*",
         "denis909/yii2-where-date-trait": "*",
-        "denis909/yii2-join-with-relation-trait": "*",
+        "denis909/yii2-join-relation-trait": "*",
         "denis909/yii2-formatter-behavior": "*",
         "denis909/yii2-datetime-formatter-behavior": "*",
         "denis909/yii2-delete-related-behavior": "*",
